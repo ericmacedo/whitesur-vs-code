@@ -1,0 +1,22 @@
+{
+    "name": "whitesur",
+    "displayName": "WhiteSur VS Code",
+    "description": "Theme to match the WhiteSur Theme",
+    "version": "0.0.1",
+    "publisher": "ericmacedo",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "WhiteSur Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            }
+        ]
+    }
+}
